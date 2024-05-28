@@ -19,10 +19,10 @@ import { Vale } from "./entity/vale";
 
 export const AppDataSourse = new DataSource({
     type: 'postgres',
-    host: 'roundhouse.proxy.rlwy.net',
+    host: 'viaduct.proxy.rlwy.net',
     username: 'postgres',
-    password: 'GgUCDTqEluKqukzOMOuaOGcMyQHgJHhZ',
-    port: 31935,
+    password: 'kCpIjDgDygSOSiwTRXjnoQbWJaKheZCB',
+    port: 58142,
     database: 'railway',
     entities: [User,Empleado, Edificio, Area, Vale],
     logging: true,
